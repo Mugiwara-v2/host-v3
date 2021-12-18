@@ -105,7 +105,6 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <h1 id="msgs" style="color:#87FF33">84Ciss Host v1.2 for FW 9.00</h1>
 <h1 id=msgs2 style='font-size:25px;text-align:center;color:yellow;'>STATUS</h1>
 <hr>
-<br>
 <div style='font-size:20px;text-align:center;color:#87FF33;'>GoldHen 2.0</div>
 <button style='font-size:22px;text-align:center;color:white;background-color: goldenrod;' class="pointer" onclick=load_goldhen2() onMouseOver="msgs2.innerHTML='GoldHEN 2.0b by SISTRo'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B>GoldHen 2.0b </B></button></a>
 <br><br>
@@ -135,6 +134,13 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onclick=load_enablebUpdates() onMouseOver="msgs2.innerHTML='Removes the dummy files in the PS4 update folder'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B> Enable Update </B></button></a>
 <button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onclick=load_fanthreshold() onMouseOver="msgs2.innerHTML='increase in fan speed to 60°C'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B> &#176;C Fan 60 </B></button></a>
 <br><br>
+<div style=font-size:20px;text-align:center;color:#87FF33;>Linux</div>
+<button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onclick=load_linux() onMouseOver="msgs2.innerHTML='Linux Loader'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B> Linux </B></button></a>
+<button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onclick=load_linux1() onMouseOver="msgs2.innerHTML='Linux Loader-2gb'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B> Linux-2gb </B></button></a>
+<button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onclick=load_linux2() onMouseOver="msgs2.innerHTML='Linux Loader-3gb'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B> Linux-3gb </B></button></a>
+<button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onclick=load_linux3() onMouseOver="msgs2.innerHTML='Linux Loader-4gb'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B> Linux-4gb </B></button></a>
+<button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onclick=load_linux4() onMouseOver="msgs2.innerHTML='Linux Loader-5gb'" ; onmouseout="msgs2.innerHTML='STATUS'" type="button"><B> Linux-5gb </B></button></a>
+
 <br><br>
 <button style="background-color:#781f1f;border-radius:50px;">
 FW- <span id="PS4fw"></span></button>
@@ -285,6 +291,41 @@ function load_fanthreshold(){
 var script = document.createElement('script');script.src = "fan-threshold.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Jailbreak + Fan Threshold... Please Wait !!!"
 LoadedMSG="Fan Threshold Loaded... Press OK Now !!!";
+setTimeout(poc,1500);
+}
+
+function load_linux(){
+var script = document.createElement('script');script.src = "LinuxLoader-900.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Linux Loader... Please Wait !!!";
+LoadedMSG="Linux Loader Loaded... Press OK Now !!!";
+setTimeout(poc,1500);
+}
+
+function load_linux1(){
+var script = document.createElement('script');script.src = "LinuxLoader-900-2gb.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Linux Loader... Please Wait !!!";
+LoadedMSG="Linux Loader -2gb Loaded... Press OK Now !!!";
+setTimeout(poc,1500);
+}
+
+function load_linux2(){
+var script = document.createElement('script');script.src = "LinuxLoader-900-3gb.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Linux Loader... Please Wait !!!";
+LoadedMSG="Linux Loader -3gb Loaded... Press OK Now !!!";
+setTimeout(poc,1500);
+}
+
+function load_linux3(){
+var script = document.createElement('script');script.src = "LinuxLoader-900-4gb.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Linux Loader... Please Wait !!!";
+LoadedMSG="Linux Loader -4gb Loaded... Press OK Now !!!";
+setTimeout(poc,1500);
+}
+
+function load_linux4(){
+var script = document.createElement('script');script.src = "LinuxLoader-900-5gb.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Linux Loader... Please Wait !!!";
+LoadedMSG="Linux Loader -5gb Loaded... Press OK Now !!!";
 setTimeout(poc,1500);
 }
 </script>
