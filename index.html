@@ -149,9 +149,10 @@ FW- <span id="PS4fw"></span></button>
 <br><font style='color:#87FF33'>Special thanks : </font>@Sleirgoevy for Webkit, @SpecterDev & @ChendoChap for kex, @SiSTRo for Gold&HEN
 </div>              
 <script>
-function allset() {
-setTimeout(function(){document.location.href = 'index.html';},3000);
-window.msgs.innerHTML="<h1>"+LoadedMSG+"</h1>";
+function awaitpl() {
+window.msgs.innerHTML="<h1 style="color:#87FF33">"+LoadedMSG+"</h1>";
+history.pushState({}, '', 'index.html');
+read_ptr_at(0);
 }
 
 function load_goldhen2(){
