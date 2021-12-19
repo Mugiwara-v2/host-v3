@@ -3,10 +3,9 @@ CACHE MANIFEST
 CACHE: 
 fan-threshold.js
 int64.js
-kexploit.js
+kexploit1.js
 rop.js
 Style.css
-webkit.js
 theme.html
 index.html
 binloader.html
@@ -15,6 +14,8 @@ LinuxLoader-900-5gb.js
 LinuxLoader-900.js
 LinuxLoader-900-2gb.js
 LinuxLoader-900-3gb.js
+webkit.js
+kexploit.js
 gtabeef133\the-payload.js
 hblocker\the-payload.js
 kclock\the-payload.js
@@ -40,6 +41,7 @@ img\2.jpg
 img\3.jpg
 img\4.jpg
 img\5.jpg
+gtabeef134\the-payload.js
 
 NETWORK: 
 * 
