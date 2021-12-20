@@ -8,11 +8,11 @@ Style.css
 theme.html
 index.html
 binloader.html
-LinuxLoader-900-4gb.js
-LinuxLoader-900-5gb.js
-LinuxLoader-900.js
-LinuxLoader-900-2gb.js
-LinuxLoader-900-3gb.js
+LinuxLoader-4gb.js
+LinuxLoader-5gb.js
+LinuxLoader.js
+LinuxLoader-2gb.js
+LinuxLoader-3gb.js
 webkit.js
 kexploit.js
 gtabeef133\the-payload.js
